@@ -18,8 +18,8 @@
 
 .page {
   @include breakpoint($large) {
-   float: right;
-   width: $right-sidebar-width-narrow;
+   float: left;
+   width: calc(100% - #{$right-sidebar-width-narrow});
   }
 
   .page__inner-wrap {
