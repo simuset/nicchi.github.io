@@ -10,8 +10,7 @@ locale                   : "en-US"
 title                    : "Simone Nicchi"
 title_separator          : "-"
 name                     : &name "Simone Nicchi"
-description              : &description "PhD student in Computer Science. 
-Sapienza University of Rome."
+description              : &description "Ph.D. student in Computer Science. Sapienza University of Rome."
 url                      : https://simuset.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "simuset.github.io"
@@ -83,8 +82,7 @@ analytics:
 author:
   name             : "Simone Nicchi"
   avatar           : "profile.png"
-  bio              : "PhD student in Computer Science. 
-Sapienza University of Rome."
+  bio              : "Ph.D. student in Computer Science. Sapienza University of Rome."
   location         : "Rome, Italy"
   employer         :
   googlescholar    :
