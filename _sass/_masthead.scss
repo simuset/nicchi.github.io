@@ -12,6 +12,13 @@
   z-index: 20;
   background: #eeeeee;
 
+  #colorstrip{
+    width: 100%; height: 2px;
+    border-style: solid;
+    border-color: white;
+    background-color: white;
+  }
+
   &__inner-wrap {
     @include container;
     @include clearfix;
