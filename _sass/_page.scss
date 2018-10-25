@@ -19,7 +19,7 @@
 .page {
   @include breakpoint($large) {
    float: right;
-   width: 70%;
+   width: 500em;
   }
 
   .page__inner-wrap {
