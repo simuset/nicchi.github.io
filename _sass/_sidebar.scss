@@ -10,10 +10,10 @@
   -webkit-transform: translate3d(0, 0 , 0);
           transform: translate3d(0, 0 , 0);
 
+  width: 400px;
+
   @include clearfix();
   margin-bottom: 1em;
-
-  width: 300px;
 
   @include breakpoint($large) {
     @include span(2 of 12);
