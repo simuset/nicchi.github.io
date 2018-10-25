@@ -47,6 +47,8 @@
   img {
     width: 100%;
   }
+
+  width: 300px;
 }
 
 .sidebar__right {
@@ -121,7 +123,6 @@
 }
 
 .author__bio {
-  width: 400px;
   margin: 0;
 
   @include breakpoint($large) {
