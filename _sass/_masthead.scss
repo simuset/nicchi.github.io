@@ -10,7 +10,6 @@
   -webkit-animation-delay: 0.15s;
           animation-delay: 0.15s;
   z-index: 20;
-  background: $lighter-gray;
 
   &__inner-wrap {
     @include container;
@@ -33,8 +32,6 @@
 }
 
 .masthead__menu {
-
-  background: $lighter-gray;
 
   ul {
     margin: 0;
