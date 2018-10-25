@@ -4,6 +4,7 @@
 
 .masthead {
   position: relative;
+  border-top: 2px solid #83092b;
   border-bottom: 1px solid $border-color;
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
@@ -30,11 +31,6 @@
       text-decoration: none;
     }
   }
-
-  #colorstrip{
-    height: 0px;
-    border-bottom:solid 2px red;
-  }​
 
 }
 
