@@ -323,10 +323,11 @@
   a {
     display: block;
     padding: 0.125em 0;
-    color: #83092b;
+    color: inherit;
 
     &:hover {
       text-decoration: underline;
+      color: #83092b;
     }
   }
 
