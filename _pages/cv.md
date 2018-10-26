@@ -11,7 +11,7 @@ redirect_from:
 
 <section class="page__content" itemprop="text">
         
-        <p class="notice--info">My full CV can be downloaded <a href="/files/paper1.pdf">here</a>.</p>
+        <p class="notice--info">My full CV can be downloaded <a href="/files/CV_Nicchi.pdf">here</a>.</p>
 
 <h2 id="education">Education</h2>
 <p><strong>November 2018 – today</strong> <br />
