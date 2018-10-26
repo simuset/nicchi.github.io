@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-<p>I am a Ph.D. student in <em>Computer Science</em> at the <a href="https://www.uniroma1.it/en/">Sapienza University of Rome</a>, under the supervision of <a href=http://wwwold.diag.uniroma1.it/~demetres/> Camil Demetrescu </a>. </p>
+<p>I am a Ph.D. student in <em>Computer Science</em> at the <a href="https://www.uniroma1.it/en/">Sapienza University of Rome</a>, under the supervision of <a href="http://wwwold.diag.uniroma1.it/~demetres/"> Camil Demetrescu </a>. </p>
 
 <p>My research interests involve the application of program analysis techniques to the security domain. </p>
 
