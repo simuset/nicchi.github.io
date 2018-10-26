@@ -7,6 +7,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D. student in <em>Computer Science</em> at the <a href="https://www.uniroma1.it/en/">Sapienza University of Rome</a>.
+<p>I am a Ph.D. student in <em>Computer Science</em> at the <a href="https://www.uniroma1.it/en/">Sapienza University of Rome</a>, under the supervision of <a href=http://wwwold.diag.uniroma1.it/~demetres/> Camil Demetrescu </a>. </p>
 
-Lorem ipsum
+<p>My research interests involve the application of program analysis techniques to the security domain. </p>
+
+<p> </p>
+
+<p><a name="contact"></a></p>
+<h2 id="contact-information">Contact information</h2>
+<p>Dept. of Computer, Control, and Management Engineering<br />
+Sapienza University of Rome <br />
+Via Ariosto 25, 00185 Rome, Italy<br />
+simone [dot] nicchi [at] gmail [dot] com <br /></p>
