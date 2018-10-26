@@ -7,6 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-This is Simuset's account
+I am a Ph.D. student in <em>Computer Science</em> at the <a href="https://www.uniroma1.it/en/">Sapienza University of Rome</a>.
 
 Lorem ipsum
