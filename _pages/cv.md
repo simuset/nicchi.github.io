@@ -11,7 +11,7 @@ redirect_from:
 
 <h2 id="education">Education</h2>
 <p><strong>November 2018 – today</strong> <br />
-Ph.D. student in <em>Computer Science</em> at Sapienza University of Rome.<br />
+Ph.D. student in <em>Computer Engineering</em> at Sapienza University of Rome.<br />
 Advisor: Prof. Camil Demetrescu.</p>
 
 <p><strong>October 2015 - July 2018</strong> <br />
