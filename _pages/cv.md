@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+<section class="page__content" itemprop="text">
+        
+        <p class="notice--info">My full CV can be downloaded <a href="/files/paper1.pdf">here</a>.</p>
+
 <h2 id="education">Education</h2>
 <p><strong>November 2018 – today</strong> <br />
 Ph.D. student in <em>Computer Engineering</em> at Sapienza University of Rome.<br />
@@ -21,3 +25,4 @@ Thesis: ‘‘BlueTracer: a Robust API Tracer for Evasive Malware’’. <br />
 Advisor: Prof. Camil Demetrescu. <br />
 Co-Advisors: Dr. Daniele Cono D'Elia, Dr. Emilio Coppa</p>
 
+</section>
