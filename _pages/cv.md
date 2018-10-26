@@ -25,4 +25,17 @@ Thesis: ‘‘BlueTracer: a Robust API Tracer for Evasive Malware’’. <br />
 Advisor: Prof. Camil Demetrescu. <br />
 Co-Advisors: Dr. Daniele Cono D'Elia, Dr. Emilio Coppa</p>
 
+<p><strong>October 2011 - October 2015</strong> <br />
+<em>Laurea</em> (BSc equivalent) <em>cum laude</em> in Computer Engineering <br /> 
+at University of Rome Tor Vergata.<br />
+Thesis: ‘‘DarkCrawler: platform for crawling and analyzing illegal contents on the Tor network’’. <br /> 
+Advisor: Prof. Giuseppe Bianchi. <br />
+Co-Advisors: Dr. Alberto Caponi. </p>
+
+<p><strong>August 2006 - May 2011</strong> <br />
+<em> Bilingual (Italian/English) International Baccalaureate (IB) Diploma </em> <br />
+at International School of Berne, Bern (Switzerland).<br />
+Final Score: 40/45. <br />
+ </p>
+
 </section>
