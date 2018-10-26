@@ -16,10 +16,10 @@ redirect_from:
 
 <h2 id="education">Education</h2>
 <p><strong>November 2018 – today</strong>
-Ph.D. student in <em>Computer Science</em> at Sapienza University of Rome.<br />
+<b>Ph.D. student in Computer Science</b> at Sapienza University of Rome.<br />
 Advisor: Prof. Camil Demetrescu.</p>
 
-<p><strong>July 2018</strong>: <em>Master of Science in Engineering in Computer Science cum laude</em> <br /> 
+<p><strong>July 2018</strong>: <b>Master of Science in Engineering in Computer Science cum laude</b> <br /> 
 at Sapienza University of Rome. <br />
 Thesis: ‘‘BlueTracer: a Robust API Tracer for Evasive Malware’’. <br /> 
 Advisor: Prof. Camil Demetrescu. <br />
