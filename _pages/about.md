@@ -18,4 +18,4 @@ redirect_from:
 <p>Dept. of Computer, Control, and Management Engineering<br />
 Sapienza University of Rome <br />
 Via Ariosto 25, 00185 Rome, Italy<br />
-nicchi [at] diag [dot] com <br /></p>
+nicchi [at] diag [dot] uniroma1 [dot] it <br /></p>

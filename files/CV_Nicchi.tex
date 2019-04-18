@@ -1,0 +1,280 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+\usepackage{fontspec} % For loading fonts
+\setmainfont{[Fontin-Regular.otf]}
+\defaultfontfeatures{Mapping=tex-text}
+% \setmainfont{[Fontin-Regular.otf]} % Main document font
+% \setmainfont[SmallCapsFont = Fontin-SmallCaps.otf]{[Fontin-Regular.otf]} % Main document font
+\setmainfont{Fontin-Regular.otf}[
+BoldFont       = Fontin-Bold.otf ,
+ItalicFont     = Fontin-Italic.otf ,
+SmallCapsFont  = Fontin-SmallCaps.otf ]
+
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+
+\noindent\begin{minipage}{0.6\textwidth}\raggedright% adapt widths of minipages to your needs
+%%\vspace{-5em}
+\hspace{5em} \Huge{Simone Nicchi} \\
+\vspace{0.6em}
+\hspace{2.4em} \LARGE{\textit{Curriculum Vitae}} \\
+\vspace{1.2em}
+\hspace{3.3em} \large{\textit{last updated: April 2019}}
+\end{minipage}%
+\hfill%
+\begin{minipage}{0.3\textwidth}
+\includegraphics[width=\linewidth]{profile}
+\end{minipage}
+
+%\par{\centering{\Huge Yuri \textsc{S. Villas Boas}}\bigskip\par} % Your name
+
+\section{Personal Data}
+
+\begin{tabular}{rl}
+\textsc{Place and Date of Birth:} & Bracciano (RM), Italy - 6 July 1993 \\
+\textsc{Office Address:} & Via Ariosto 25, 00185 Rome, Italy \\
+\textsc{Email:} & \href{mailto:nicchi@diag.uniroma1.it}{nicchi@diag.uniroma1.it}\\
+\textsc{Institutional Page:} & \href{https://simuset.github.com}{https://simuset.github.com}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+% \textsc{July} 2012 & Master of Commerce in \textsc{Finance}, \textbf{The University of California}, Berkeley\\
+% & 110/110 \small\emph{First Class Honours} | Major: Quantitative Finance\\
+% & Thesis: ``Money is the Root of All Evil - Or is it?'' | \small Advisor: Prof. James \textsc{Smith}\\
+% &\normalsize \textsc{Gpa}: 8.0/9.0\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}\\
+% &\\
+
+%------------------------------------------------
+
+\textsc{November} 2018 - \textsc{Now} & \textsc{Ph.D. in Computer Engineering}\\%110/110
+& \small\emph{Sapienza University of Rome}, Italy \\
+%& Heavily specialized in mundane paperwork | 
+& \small Advisor: Prof. Camil \textsc{Demetrescu}\\
+% &\normalsize \textsc{Gpa}: 6.9/10.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+&\\
+
+\textsc{October} 2015 - \textsc{July} 2018 & Master of Science in \textsc{Computer Engineering} (in English)\\%110/110
+& \small\emph{Sapienza University of Rome}, Italy \\
+%& Heavily specialized in mundane paperwork | 
+& \small Dissertation title: “BlueTracer: a Robust API Tracer for Evasive Malware” \\
+& \small Advisor: Prof. Camil \textsc{Demetrescu} \\
+& \small Co-Advisors: Dr. Daniele Cono \textsc{D'Elia}, Dr. Emilio \textsc{Coppa} \\
+& \small Final grade: 110/110 with honors (\emph{summa cum laude})
+% &\normalsize \textsc{Gpa}: 6.9/10.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+&\\
+
+\textsc{October} 2011 - \textsc{October} 2015 & Bachelor degree in \textsc{Computer Engineering} (in English)\\%110/110
+& \small\emph{University of Rome Tor Vergata}, Italy \\
+%& Heavily specialized in mundane paperwork | 
+& \small Dissertation title: “DarkCrawler: platform for crawling illegal contents on Tor” \\
+& \small Advisor: Prof. Giuseppe \textsc{Bianchi} \\
+& \small Co-Advisors: Dr. Alberto \textsc{Caponi} \\
+& \small Final grade: 110/110 with honors (\emph{summa cum laude})
+% &\normalsize \textsc{Gpa}: 6.9/10.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+&\\
+
+\textsc{August} 2006 - \textsc{May} 2011 & Bilingual (Italian/English) International Baccalaureate (IB) Diploma \\%110/110
+& \small\emph{International School of Berne} \\
+%& Heavily specialized in mundane paperwork | 
+& \small Bern - Switzerland \\
+& \small Final grade: 40/45
+% &\normalsize \textsc{Gpa}: 6.9/10.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+&\\
+
+%------------------------------------------------
+
+% \textsc{Fall} 2008 & Exchange Semester at \textbf{University of Southern California}, Los Angeles\\
+% & \textsc{Gpa}: 8.0/9.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+% &\\
+
+% %------------------------------------------------
+
+% \textsc{July} 2006& \textbf{Liceo Classico ``E. Duni''}, Matera | Final Grade: 100/100
+\end{tabular}
+
+\section{Research Interests}
+
+My research interests involve the application of program analysis techniques to the security domain.
+
+
+% %----------------------------------------------------------------------------------------
+% %	SCHOLARSHIPS AND ADDITIONAL INFO
+% %----------------------------------------------------------------------------------------
+
+% \section{Scholarships and Certificates}
+
+% \begin{tabular}{rl}
+% \textsc{Sept.} 2012 & Faculty of Science Masters Scholarship \footnotesize(\$30,000)\normalsize\\
+
+% \setmainfont{[Fontin-SmallCaps.otf]}
+% \textsc{June} 2010 & {\textsc{Gmat}\textregistered}\setmainfont[SmallCapsFont= Fontin-SmallCaps.otf]{Fontin-Regular.otf}: 730 (\textsc{q:50;v:39}) 96\textsuperscript{th} percentile; \textsc{awa}: 6.0/6.0 (89\textsuperscript{th} percentile)
+% \end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\begin{tabular}{rl}
+\textsc{English:} & Fluent \\%- Reference: \href{mailto:pavo.cameo@gmail.com\}{Anastasia Pavo}, English instructor at \href{http://www.languagecourse.net/school-proba-educational-centre-st--petersburg.php3}{ProBa School}\\
+
+\textsc{Italian:} & Mothertongue\\
+\end{tabular}
+
+% %----------------------------------------------------------------------------------------
+% %	COMPUTER SKILLS 
+% %----------------------------------------------------------------------------------------
+
+\section{Computer Skills}
+
+ \begin{tabular}{rl}
+ Programming Languages: &  C++, Python, Java, Scala, JSP, PHP\setmainfont[SmallCapsFont=Fontin-SmallCaps.otf]{Fontin-Regular.otf}\\
+Operating systems: & GNU/Linux (Debian-based), Microsoft Windows \\
+Frameworks: & Apache Hadoop, angr, Intel Pin, Scrapy, Hibernate \\
+ Other: &  Relational databases, MongoDB, Android Studio, Arduino, \\
+ & IDA Pro, Microsoft Office suite, Open/LibreOffice suite, LATEX.
+ \end{tabular}
+
+
+\section{Publications}
+
+\begin{tabular}{rl}	
+% \textsc{July} 2012 & Master of Commerce in \textsc{Finance}, \textbf{The University of California}, Berkeley\\
+% & 110/110 \small\emph{First Class Honours} | Major: Quantitative Finance\\
+% & Thesis: ``Money is the Root of All Evil - Or is it?'' | \small Advisor: Prof. James \textsc{Smith}\\
+% &\normalsize \textsc{Gpa}: 8.0/9.0\hyperlink{grds}{\hfill | \footnotesize Detailed List of Exams}\\
+% &\\
+
+%------------------------------------------------
+
+2018 & \textbf{SoK: Using Dynamic Binary Instrumentation for Security} \\ & \textbf{(And How You May Get Caught Red Handed)} \\
+& \textit{D.C. D'Elia, E. Coppa, S. Nicchi, F. Palmaro, L. Cavallaro} \\
+&  ACM ASIA CCS 2019
+
+%------------------------------------------------
+
+% \textsc{Fall} 2008 & Exchange Semester at \textbf{University of Southern California}, Los Angeles\\
+% & \textsc{Gpa}: 8.0/9.0 \hyperlink{grds_usc}{\hfill| \footnotesize Detailed List of Exams}\\
+% &\\
+
+% %------------------------------------------------
+
+% \textsc{July} 2006& \textbf{Liceo Classico ``E. Duni''}, Matera | Final Grade: 100/100
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+
+% \newpage
+
+% %----------------------------------------------------------------------------------------
+% %	GRADE TABLES
+% %----------------------------------------------------------------------------------------
+
+% \par{\centering\Large \hypertarget{grds}{Master of Science in \textsc{Finance}}\par}\large{\centering Grades\par}\normalsize
+
+% \begin{center}
+% \begin{tabular}{lcc}
+% \multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade}&\textsc{Credit Hrs}\\ \hline
+% Corporate Finance (Valuation) & 25 & 6\\
+% Financial Statement Analysis & 28 & 6\\
+% Statistics & 27 & 6\\
+% Theory of Finance & 26 & 6\\
+% Quantitative Methods for Finance & 30 & 6\\
+% Econometrics & 24 & 6\\
+% Derivatives & 31 & 6\\
+% Management of Financial and Insurance Companies & 30 & 6\\
+% Business Law & 31 & 6\\
+% Investment Banking	& 28 & 6\\ \\		
+% Behavioral Models for Economics and Finance	 & 29 & 6\\
+% Numerical Methods for Finance & 29 & 6\\
+% Advanced Derivatives & 30 & 6\\
+% Fixed Income (Advanced Methods) & 30 & 6\\ \\
+% English Language & 30 &	4\\
+% French Language & 31 &	4\\	
+% Internship & & 8\\		
+% Final Thesis & & 20\\	
+% & Total & 120\\\cline{2-3}
+% &\textsc{Gpa}&\textbf{8.0}
+% \end{tabular}
+% \end{center}
+% \bigskip
+% \hrule
+% \bigskip
+
+% %------------------------------------------------
+
+% \bigskip
+
+% \par{\centering\Large \hypertarget{grds_usc}{Exchange Program at \textsc{usc}, Los Angeles}\par}\large{\centering Grades\par}\normalsize
+
+% \begin{center}
+% \begin{tabular}{lcc}
+% \multicolumn{1}{c}{\textsc{Exam}} & \textsc{Grade} & \textsc{Grade Points}\\ 
+% \hline
+% Corporate Financial Strategy & A & 4\\
+% Derivatives & A & 4\\
+% Money, Credit, and Banking & A & 4\\
+% Business Strategy & A- & 3.5\\
+% & &\\\cline{2-3}
+% & \textsc{Gpa} & \textbf{3.875}
+% \end{tabular}
+% \end{center}
+
+% %----------------------------------------------------------------------------------------
+
+\end{document}
