@@ -5,12 +5,9 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+<h2>2019</h2>
 
-{% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<p> D.C. D'Elia, E. Coppa, S. Nicchi, F. Palmaro, L. Cavallaro <br />
+<strong>SoK: Using Dynamic Binary Instrumentation for Security (And How You May Get Caught Red Handed)</strong> <br />
+<span class="publications-info">In ACM ASIA CCS 2019.</span><br />
+<!--<br/>--></p>
